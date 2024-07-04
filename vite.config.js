@@ -14,4 +14,9 @@ export default defineConfig({
       },
     },
   },
+  build: {
+    rollupOptions: {
+      input: 'index.html' // Ensure this is correct and matches your project structure
+    }
+  }
 });
